@@ -61,7 +61,20 @@ Con base en esto, se definieron los umbrales de clasificación (poco estrés, es
 # **Discusión**
 
 - ¿A qué se debe que una inspiración profunda incremente la magnitud de la respuesta galvánica cutánea (GSR)?
+La respuesta galvánica cutánea está mediada por el sistema nervioso autónomo simpático, específicamente por la activación de las glándulas sudoríparas ecrinas, que son inervadas casi exclusivamente por fibras simpáticas colinérgicas.
+
 - ¿Cuáles serían las ventajas y desventajas de utilizar la GSR como indicador de estrés?
+
+**Ventajas**
+- Es no invasiva y de bajo costo, ya que solo requiere un par de electrodos superficiales y un circuito de acondicionamiento simple, sin necesidad de reactivos, agujas, o equipos costosos.
+- Tiene una buena resolución temporal, lo cual permite detectar respuestas fisiológicas rápidas ante estímulos discretos, siendo útil en estudios de decisión, atención y respuesta a estímulos puntuales.
+- Factible de implementar en dispositivos vestibles. Es posible construir un sistema portátil, inalámbrico y de bajo consumo energético para monitoreo continuo, algo mucho más difícil de lograr con técnicas como EEG o resonancia magnética funcional.
+
+**Desventajas**
+- Tiene sensibilidad a artefactos de movimiento y contacto. El movimiento del sujeto (caminar, escribir) puede alterar la presión y el área de contacto de los electrodos con la piel, generando cambios de señal que no corresponden a una verdadera activación fisiológica, sino a variaciones de impedancia por contacto mecánico.
+- Dependencia de factores ambientales. La temperatura y humedad ambiente afectan directamente la tasa de sudoración basal, introduciendo una fuente de variabilidad que no está relacionada con el estado emocional o cognitivo del sujeto.
+- Alta variabilidad entre individuos. El nivel basal de conductancia varía considerablemente entre sujetos, ya sea por hidratación, grosor de piel, temperatura corporal y edad o tambien en el mismo sujeto a lo largo del tiempo. Esto obliga a una calibración individual y por sesión, limitando su uso como medida absoluta y universal.
+
 # **Conclusiones**
 # **Referencias**
 
