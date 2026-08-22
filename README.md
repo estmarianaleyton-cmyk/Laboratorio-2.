@@ -52,6 +52,12 @@ Con base en esto, se definieron los umbrales de clasificación (poco estrés, es
 
 <img width="549" height="268" alt="image" src=https://github.com/estmarianaleyton-cmyk/Laboratorio-2./blob/main/umbrales.png >
 
+# **Resultados**
+# **Análisis de resultados**
+# **Discusión**
+# **Conclusiones**
+# **Referencias**
+
 
 
 
