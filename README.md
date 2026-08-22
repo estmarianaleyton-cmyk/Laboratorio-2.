@@ -61,6 +61,7 @@ Con base en esto, se definieron los umbrales de clasificación (poco estrés, es
 # **Discusión**
 
 - ¿A qué se debe que una inspiración profunda incremente la magnitud de la respuesta galvánica cutánea (GSR)?
+
 La respuesta galvánica cutánea está mediada por el sistema nervioso autónomo simpático, específicamente por la activación de las glándulas sudoríparas ecrinas, que son inervadas casi exclusivamente por fibras simpáticas colinérgicas.
 
 - ¿Cuáles serían las ventajas y desventajas de utilizar la GSR como indicador de estrés?
