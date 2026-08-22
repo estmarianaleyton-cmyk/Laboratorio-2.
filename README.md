@@ -20,7 +20,9 @@ Se diseñó un circuito divisor de voltaje para transducir las variaciones de re
 
 ***Circuito***
 
-<img width="449" height="168" alt="image" src= https://github.com/estmarianaleyton-cmyk/Laboratorio-2./blob/main/Frecuencia%20de%20corte.png>
+<img width="549" height="468" alt="image" src= https://github.com/estmarianaleyton-cmyk/Laboratorio-2./blob/main/circuito1.jpeg>
+
+<img width="449" height="168" alt="image" src= https://github.com/estmarianaleyton-cmyk/Laboratorio-2./blob/main/circuito1.jpeg>
 
 Este filtro se incluyó para atenuar componentes de alta frecuencia como ruido eléctrico e interferencia de red sin afectar la componente de interés, dado que las variaciones fisiológicas de la GSR ocurren en escalas de tiempo del orden de segundos.
 
