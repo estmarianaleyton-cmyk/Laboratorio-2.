@@ -48,7 +48,10 @@ La recepción de los datos se implementó en MATLAB mediante un script que se co
 
 Siguiendo el procedimiento de la guía, se solicitó al sujeto de prueba, en reposo y cómodamente sentado, realizar una inspiración profunda seguida de una exhalación lenta, registrando el valor máximo y mínimo de la señal GSR observados durante la respuesta. Durante esta fase se identifico que el valor basal de la señal no es estable inmediatamente después de colocar los electrodos, sino que presenta una tendencia decreciente/creciente gradual durante los primeros minutos, atribuible a la hidratación progresiva de la piel bajo el electrodo. Por este motivo, se estableció un período de estabilización previo a la toma del basal de referencia de 3-5 minutos.
 
-Con base en esto, se definieron los umbrales de clasificación (poco estrés, estrés moderado, estrés elevado) como una fracción de la amplitud individual de cada sujeto (basal + 30% y basal + 70% de la amplitud registrada en la prueba de respiración), en lugar de valores absolutos universales.
+Con base en esto, se definieron los umbrales de clasificación (poco estrés, estrés moderado, estrés elevado) como una fracción de la amplitud para el sujeto, en lugar de valores absolutos universales. Los valor obtenidos fueron: minimo de 1.1 V y el maximo de 1.4 V, en base a estos se realizo el cálculo de la amplitud y asi mismo de los umbrales.
+
+<img width="449" height="168" alt="image" src= https://github.com/estmarianaleyton-cmyk/Laboratorio-2./blob/main/Frecuencia%20de%20corte.png >
+
 
 
 
