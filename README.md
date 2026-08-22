@@ -43,8 +43,13 @@ Para cumplir con el requisito de transmisión inalámbrica y portabilidad, se re
 La salida del divisor de voltaje se conectó al pin GPIO34 de la ESP32 (canal ADC1), seleccionado por no compartir hardware con el subsistema WiFi/Bluetooth (a diferencia de los pines ADC2), evitando así interferencia en las lecturas durante la transmisión inalámbrica. La alimentación del divisor se tomó del pin 3V3 de la propia ESP32, garantizando una referencia de tierra común entre el circuito de acondicionamiento y el microcontrolador.
 Para las pruebas de movilidad, la ESP32 se alimentó mediante una batería portátil de 5V/1000mA conectada por USB, permitiendo la operación del dispositivo de forma autónoma y sin restricción de cable durante el desplazamiento del sujeto de prueba.
 
-## ***Recepción y vizualización de la señal***
+## ***Recepción, vizualización de la señal y definición de umbrales***
 La recepción de los datos se implementó en MATLAB mediante un script que se conecta al puerto COM virtual generado por el emparejamiento Bluetooth (SPP) entre el computador y la ESP32. El script realiza lectura continua por el objeto "serialport", actualiza una gráfica en tiempo real y clasifica el nivel de estrés percibido según el voltaje medido.
+
+Siguiendo el procedimiento de la guía, se solicitó al sujeto de prueba, en reposo y cómodamente sentado, realizar una inspiración profunda seguida de una exhalación lenta, registrando el valor máximo y mínimo de la señal GSR observados durante la respuesta. Durante esta fase se identifico que el valor basal de la señal no es estable inmediatamente después de colocar los electrodos, sino que presenta una tendencia decreciente/creciente gradual durante los primeros minutos, atribuible a la hidratación progresiva de la piel bajo el electrodo. Por este motivo, se estableció un período de estabilización previo a la toma del basal de referencia de 3-5 minutos.
+Con base en esto, se definieron los umbrales de clasificación (poco estrés, estrés moderado, estrés elevado) como una fracción de la amplitud individual de cada sujeto (basal + 30% y basal + 70% de la amplitud registrada en la prueba de respiración), en lugar de valores absolutos universales.
+
+
 
 
 
