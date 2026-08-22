@@ -27,6 +27,8 @@ Este filtro se incluyó para atenuar componentes de alta frecuencia como ruido e
 ## ***Revisión normativa de la seguridad eléctrica***
 Siguiendo el numeral A.2 de la guía, se consultó la norma IEC 60479 ("Effects of current on human beings and livestock"), que establece los umbrales fisiológicos de corriente eléctrica sobre el cuerpo humano según su intensidad y tipo, alterna o continua. La Tabla 1 resume dichos efectos:
 
+<img width="449" height="168" alt="image" src= https://github.com/estmarianaleyton-cmyk/Laboratorio-2./blob/main/Frecuencia%20de%20corte.png >
+
 
 
 
