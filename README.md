@@ -34,7 +34,19 @@ Es importante aclarar que esta tabla de efectos fisiológicos, ampliamente citad
 ## ***Cálculo de corriente máxima***
 Siguiendo estos criterios de seguridad, y considerando el caso extremo en el que la resistencia de la piel del sujeto tiende a cero (R_skin = 0 Ω, cortocircuito), se verificó que la corriente circulante no superara 1 mA (umbral de percepción según la Tabla 1, tomado como margen conservador de seguridad). Con una alimentación de 3.3 VDC, voltaje suministrado por el pin 3V3 de la ESP32 y la resistencia fija de 68 kΩ como única limitante en el caso extremo:
 
-<img width="449" height="168" alt="image" src=  >
+<img width="449" height="168" alt="image" src= https://github.com/estmarianaleyton-cmyk/Laboratorio-2./blob/main/Corriente%20maxima.png>
+
+Este valor es considerablemente inferior al límite de 1 mA establecido, e incluso se ubica por debajo del umbral de percepción (0-4 mA en corriente continua según la Tabla 1), confirmando que el diseño cumple ampliamente con los márgenes de seguridad requeridos para uso en contacto directo con piel humana.
+
+## ***Diseño vestible e inalámbrico***
+Para cumplir con el requisito de transmisión inalámbrica y portabilidad, se reemplazó el DAQ por un microcontrolador ESP32 placa DevKit V1, que integra un conversor analógico-digital (ADC) de 12 bits y un módulo de comunicación Bluetooth clásico (SPP), eliminando la necesidad de un DAQ y un cable de datos permanente.
+La salida del divisor de voltaje se conectó al pin GPIO34 de la ESP32 (canal ADC1), seleccionado por no compartir hardware con el subsistema WiFi/Bluetooth (a diferencia de los pines ADC2), evitando así interferencia en las lecturas durante la transmisión inalámbrica. La alimentación del divisor se tomó del pin 3V3 de la propia ESP32, garantizando una referencia de tierra común entre el circuito de acondicionamiento y el microcontrolador.
+Para las pruebas de movilidad, la ESP32 se alimentó mediante una batería portátil de 5V/1000mA conectada por USB, permitiendo la operación del dispositivo de forma autónoma y sin restricción de cable durante el desplazamiento del sujeto de prueba.
+
+## ***Recepción y vizualización de la señal***
+La recepción de los datos se implementó en MATLAB mediante un script que se conecta al puerto COM virtual generado por el emparejamiento Bluetooth (SPP) entre el computador y la ESP32. El script realiza lectura continua por el objeto "serialport", actualiza una gráfica en tiempo real y clasifica el nivel de estrés percibido según el voltaje medido.
+
+
 
 
 
