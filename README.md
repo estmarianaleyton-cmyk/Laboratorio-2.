@@ -55,8 +55,13 @@ Con base en esto, se definieron los umbrales de clasificación (poco estrés, es
 # **Resultados**
 ## ***Reposo***
 <img width="679" height="688" alt="image" src= https://github.com/estmarianaleyton-cmyk/Laboratorio-2./blob/main/reposo%202.0.png>
+
 # **Análisis de resultados**
+
 # **Discusión**
+
+- ¿A qué se debe que una inspiración profunda incremente la magnitud de la respuesta galvánica cutánea (GSR)?
+- ¿Cuáles serían las ventajas y desventajas de utilizar la GSR como indicador de estrés?
 # **Conclusiones**
 # **Referencias**
 
