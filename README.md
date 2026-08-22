@@ -50,7 +50,9 @@ Siguiendo el procedimiento de la guía, se solicitó al sujeto de prueba, en rep
 
 Con base en esto, se definieron los umbrales de clasificación (poco estrés, estrés moderado, estrés elevado) como una fracción de la amplitud para el sujeto, en lugar de valores absolutos universales. Los valor obtenidos fueron: minimo de 1.1 V y el maximo de 1.4 V, en base a estos se realizo el cálculo de la amplitud y asi mismo de los umbrales.
 
-<img width="449" height="168" alt="image" src= https://github.com/estmarianaleyton-cmyk/Laboratorio-2./blob/main/Frecuencia%20de%20corte.png >
+<img width="549" height="268" alt="image" src= >
+
+
 
 
 
