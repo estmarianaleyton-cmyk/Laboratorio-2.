@@ -57,6 +57,8 @@ Con base en esto, se definieron los umbrales de clasificación (poco estrés, es
 # **Resultados**
 ## ***Reposo***
 <img width="679" height="688" alt="image" src= https://github.com/estmarianaleyton-cmyk/Laboratorio-2./blob/main/reposo%202.0.png>
+## ***Lectura***
+<img width="1085" height="642" alt="image" src="https://github.com/user-attachments/assets/0dbed7b1-88a2-4d26-907a-e9a68660881c" />
 
 # **Análisis de resultados**
 
