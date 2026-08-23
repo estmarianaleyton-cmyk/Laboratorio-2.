@@ -11,7 +11,9 @@
 **Título de la práctica:** Estimación del nivel de estrés basada en la respuesta galvánica cutánea (GSR)
 
 # **Introducción**
+La respuesta galvánica de la piel (GSR) es una señal fisiológica relacionada con los cambios en la conductancia eléctrica de la piel, los cuales pueden variar ante diferentes estímulos y actividades realizadas por una persona. Su medición permite observar cambios en la actividad de las glándulas sudoríparas y, por lo tanto, analizar la respuesta del organismo ante distintas condiciones.
 
+En este laboratorio se desarrolló inicialmente un circuito de adquisición de señal mediante electrodos para medir la respuesta galvánica de la piel. Posteriormente, con el propósito de implementar un sistema de adquisición inalámbrico, se incorporó una ESP32 para realizar la lectura y transmisión de los datos. Se realizaron diferentes pruebas mientras se desarrollaban actividades variadas, con el fin de observar cómo estas condiciones producían cambios en la señal obtenida.
 # **Metodología**
 ## ***Diseño del circuito de acondicionamiento***
 Se diseñó un circuito divisor de voltaje para transducir las variaciones de resistencia de la piel, asociadas a la actividad electrodérmica en una señal de voltaje medible. El circuito se conformó por un par de electrodos Ag-AgCl, que actúan como una resistencia variable dependiente de la conductancia cutánea del sujeto, en serie con una resistencia fija de 68 kΩ. En paralelo a la salida del divisor se conectó un capacitor cerámico de 1 µF, formando un filtro pasabajos RC cuya frecuencia de corte teórica es:
