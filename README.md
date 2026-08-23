@@ -57,10 +57,32 @@ Con base en esto, se definieron los umbrales de clasificación (poco estrés, es
 # **Resultados**
 ## ***Reposo***
 <img width="679" height="688" alt="image" src= https://github.com/estmarianaleyton-cmyk/Laboratorio-2./blob/main/reposo%202.0.png>
+
+Durante la prueba en reposo, la señal GSR presentó valores aproximados entre 0.8 y 1.05 V, con algunos incrementos puntuales alrededor de los 72 s y 90 s, correspondiente a inspiraciones en esos puntos. El valor indicado por el sistema fue de 0.964 V, por debajo del umbral establecido para estrés moderado, por lo que la señal fue clasificada como nivel de estrés bajo.
+
 ## ***Lectura***
-<img width="679" height="688" alt="image" src="https://github.com/user-attachments/assets/0dbed7b1-88a2-4d26-907a-e9a68660881c" />
+<img width="689" height="411" alt="image" src="https://github.com/user-attachments/assets/231a43b8-fda2-43b6-a3a5-2558ebd621ad" />
+
+Durante la actividad de lectura, la señal GSR presentó un comportamiento relativamente estable, con valores aproximados entre 0.8 y 0.92 V. Se observó un incremento leve de la señal alrededor de los 30–35 s, aunque este permaneció por debajo de los umbrales de estrés moderado y elevado. El valor registrado por el sistema fue de 0.868 V, correspondiente a un nivel de estrés bajo.
+
+## ***Ejercicio***
+<img width="686" height="414" alt="image" src="https://github.com/user-attachments/assets/27e1d9d8-004e-4da2-bab6-5a97984c0399" />
+
+Durante la actividad de ejercicio se obtuvo un valor de 1.261 V, correspondiente a un nivel de estrés moderado según los umbrales definidos para el sujeto. Este resultado representa un incremento respecto a los valores obtenidos durante las condiciones de reposo y lectura.
 
 # **Análisis de resultados**
+
+Los resultados obtenidos muestran una diferencia en el comportamiento de la señal GSR entre las tres condiciones evaluadas. En reposo se obtuvo un valor de 0.964 V, mientras que durante la lectura se registró 0.868 V. Ambos valores se catalogaron como un nivel de estrés bajo debido a que no llegaron al umbral definido para moderado. 
+
+Es importante señalar que el decremento visto durante la lectura comparado con el reposo no implica necesariamente una reducción del estrés. La señal GSR puede ser alterada por muchos factores externos tales como la condición de la piel, temperatura, hidratación, contacto con los electrodos, y actividad del sistema nervioso autónomo. Por lo anterior es importante mencionar que las diferencias vistas entre ambas condiciones se puede deber principalmente a cambios en la actividad electrodérmica del participante. 
+
+En cambio durante el ejercicio se presentó un valor de 1.261 V, calificado como un estrés moderado. El incremento con respecto a las condiciones de reposo y lectura es un indicativo de mayor activación fisiológica como ocurre durante el ejercicio. El movimiento físico puede causar incrementos en la actividad del sistema nervioso simpático y la sudoración, lo que podría causar cambios en la conductancia de la piel y la señal obtenida por el sistema gsr.
+
+En términos comparativos, el valor registrado durante el ejercicio fue aproximadamente 0.297 V mayor que en reposo y 0.393 V mayor que durante la lectura. Esto indica que la condición de ejercicio produjo la mayor respuesta de la señal entre las tres pruebas realizadas.
+
+Sin embargo, es importante aclarar que este resultado no permite afirmar que el sujeto experimentó necesariamente un mayor nivel de estrés psicológico durante el ejercicio. La GSR refleja principalmente cambios en la actividad del sistema nervioso simpático y en la respuesta de las glándulas sudoríparas, por lo que una actividad física también puede generar una respuesta elevada sin que exista estrés emocional. Por esta razón, los umbrales implementados deben considerarse como una clasificación experimental de la respuesta obtenida y no como un diagnóstico del estado de estrés del sujeto.
+
+En conjunto, los resultados permiten comprobar que el sistema desarrollado fue capaz de detectar variaciones en la señal GSR ante diferentes condiciones y clasificarlas mediante los umbrales establecidos, observándose la mayor respuesta durante el ejercicio.
 
 # **Discusión**
 
