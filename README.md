@@ -81,6 +81,7 @@ La respuesta galvánica cutánea está mediada por el sistema nervioso autónomo
 - Alta variabilidad entre individuos. El nivel basal de conductancia varía considerablemente entre sujetos, ya sea por hidratación, grosor de piel, temperatura corporal y edad o tambien en el mismo sujeto a lo largo del tiempo. Esto obliga a una calibración individual y por sesión, limitando su uso como medida absoluta y universal.
 
 # **Conclusiones**
+
 # **Referencias**
 
 
