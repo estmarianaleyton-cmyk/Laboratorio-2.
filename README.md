@@ -103,6 +103,11 @@ La respuesta galvánica cutánea está mediada por el sistema nervioso autónomo
 - Alta variabilidad entre individuos. El nivel basal de conductancia varía considerablemente entre sujetos, ya sea por hidratación, grosor de piel, temperatura corporal y edad o tambien en el mismo sujeto a lo largo del tiempo. Esto obliga a una calibración individual y por sesión, limitando su uso como medida absoluta y universal.
 
 # **Conclusiones**
+1. Se comprobó que el sistema GSR desarrollado fue capaz de detectar variaciones en la actividad electrodérmica bajo diferentes condiciones experimentales, presentando valores de 0.964 V en reposo, 0.868 V durante la lectura y 1.261 V durante el ejercicio.
+
+2. El ejercicio generó la mayor respuesta de la señal GSR, con un incremento de 0.297 V respecto al reposo y de 0.393 V respecto a la lectura. Este comportamiento puede relacionarse con una mayor activación del sistema nervioso simpático y de las glándulas sudoríparas durante la actividad física.
+
+3. La clasificación de la señal mediante los umbrales establecidos permitió diferenciar las respuestas obtenidas, identificando un nivel bajo en reposo y lectura, y moderado durante el ejercicio. Sin embargo, estos resultados representan cambios en la actividad electrodérmica y no permiten determinar por sí solos un nivel de estrés psicológico, debido a que la señal GSR también está influenciada por factores fisiológicos y ambientales.
 
 # **Referencias**
 
