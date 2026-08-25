@@ -90,6 +90,8 @@ En conjunto, los resultados permiten comprobar que el sistema desarrollado fue c
 
 La respuesta galvánica cutánea está mediada por el sistema nervioso autónomo simpático, específicamente por la activación de las glándulas sudoríparas ecrinas, que son inervadas casi exclusivamente por fibras simpáticas colinérgicas.
 
+Una inspiración profunda seguida de una exhalación lenta genera un incremento de la GSR por varias razones fisiológicas interrelacionadas, como por ejemplo la activación del reflejo inspiratorio-simpático, en donde al realizar una inspiración profunda se activan los receptores de estiramiento pulmonar que a través de vías centrales producen una descarga simpática. Esto se traduce en una activación transitoria de las glándulas sudoríparas, incrementando la conductancia cutánea. Otra razón fisiológica es el efecto de estímulo no específico, en donde cualquier estímulo (sea de naturaleza mecánica, térmica, dolorosa, o incluso un acto voluntario deliberado como una inspiración profunda) es capaz de generar un GSR.
+
 - ¿Cuáles serían las ventajas y desventajas de utilizar la GSR como indicador de estrés?
 
 **Ventajas**
